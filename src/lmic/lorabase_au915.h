@@ -73,9 +73,7 @@ enum {
         AU915_FREQ_MAX = 928000000
 };
 enum {
-        AU915_TX_MAX_DBM = 30           // 30 dBm (but not EIRP): assumes we're 
-                                        // on an 64-channel bandplan. See code
-                                        // that computes tx power.
+        AU915_TX_MAX_DBM = 30
 };
 enum { DR_PAGE_AU915 = 0x10 * (LMIC_REGION_au915 - 1) };
 
