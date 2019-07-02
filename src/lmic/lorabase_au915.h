@@ -77,6 +77,6 @@ enum {
 };
 enum { DR_PAGE_AU915 = 0x10 * (LMIC_REGION_au915 - 1) };
 
-enum { AU915_LMIC_REGION_EIRP = 1 };         // region doesn't use EIRP, uses tx power
+enum { AU915_LMIC_REGION_EIRP = 1 };         // region uses EIRP
 
 #endif /* _lorabase_au915_h_ */
